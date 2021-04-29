@@ -65,8 +65,8 @@ nav {
   letter-spacing: 3px;
   padding: 25px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
   font-family: 'Oswald';
+  background: rgb(255 255 255 / 50%);
 }
 
 a {
@@ -260,4 +260,63 @@ input:checked + .slider::before {
 .fas {
   font-size: 30px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 640px){
+
+  header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    max-width: 70px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'Kaushan Script';
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--on-background-alt);
+  }
+  #home{
+    font-size: smaller;
+  }
+
+  #about{
+    width: 100%;
+    overflow-x:  auto;
+  }
+
+  .buttons{
+    /* border: 10px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  button{
+    margin : 10px 5px;
+  }
+  .social-icons{
+     /* border: 10px solid red; */
+     width: 100%;
+     display: flex;
+     align-items: center;
+     padding: 10px 0px;
+     justify-content: space-evenly;
+  }
+  .social-icons i{
+    font-size: 30px;
+    margin: 0px;
+  }
+
 }
