@@ -1,2 +1,2 @@
 # LightDarkModeTheme
-a simple light and dark mode toggle made with Html, Css and  vanilla javascript
+a simple light and dark mode theme toggle made with Html, Css and  vanilla javascript
